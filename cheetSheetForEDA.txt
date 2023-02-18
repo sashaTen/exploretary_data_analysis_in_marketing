@@ -1,5 +1,7 @@
 
-check the  data  format .
+check the  data  format :
+Data type: Make sure the data is in the correct data type for the analysis you want to perform. For example, if you're doing numerical calculations, make sure the data is in a numeric format like integer or float. If you're doing text analysis, make sure the data is in a string format.
+...
 Data Cleaning: Clean the data to remove or correct missing values, errors, and inconsistencies. This can be done using techniques such as imputation, deletion, or interpolation. 
 EDA
 Feature Engineering: Create new features or modify existing features to improve the predictive power of the data. This can include feature scaling, normalization, and dimensionality reduction. 

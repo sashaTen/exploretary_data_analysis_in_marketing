@@ -1,0 +1,210 @@
+Data Cleaning: Clean the data to remove or correct missing values, errors, and inconsistencies. This can be done using techniques such as imputation, deletion, or interpolation. 
+
+Feature Engineering: Create new features or modify existing features to improve the predictive power of the data. This can include feature scaling, normalization, and dimensionality reduction. 
+
+Feature Selection: Select the most important features for the modeling task. This can be done using techniques such as correlation analysis, principal component analysis, or feature importance measures. 
+
+Data Transformation: Transform the data to fit the assumptions of the modeling technique. This can include techniques such as standardization, normalization, and log transformation. 
+
+Data Splitting: Split the data into training and testing sets to assess the performance of the model. This can be done using techniques such as k-fold cross-validation or hold-out validation. 
+
+Model Selection: Select the appropriate model for the data and task at hand. This can involve comparing different models and choosing the one with the best performance. 
+
+Model Evaluation: Evaluate the performance of the model using appropriate metrics such as accuracy, precision, recall, or F1-score.
+
+
+
+........
+
+
+..you   ofter     feel   like  you 
+are  overwhelmed   .   do   divide  and   conquer   problem 
+
+
+
+
+
+how  to   do  eda   ?  : 
+Are you interested in performing a prediction task? Is the task purely for exploratory purposes? Depending on the intended outcome, you might point out very different things in your EDA. 
+
+
+
+underand  the   logic   of   data   .   for   example   rows  represent 
+one  day    ,  or   one   consumer  and the   columns are the   features. 
+
+
+Checking your data for missing values is usually a good place to start 
+it  is   impirtant  in  eda  to  ask   questions   before and  
+after  chekicng    the  results.   questions   like : 
+why? 
+how?   
+what  is the  reason ? 
+explain   behiviour   ? 
+when  ?     
+
+
+If we simply remove this feature, we introduce bias into our data.  for  ex. 
+we   have  the   feature  with    80%  of  missing  values  and we   
+think    that    it is  good  idea to  delete   entire  row  
+but  ...   maybe   data    is   missing for   reason    
+
+
+...  think    like   that    while   do   imputation  
+what   data   can  is  maximum   similar  to  the  one  that   is  missed ? 
+
+classifying features   :   continious   and  descrete  and   categorical  
+
+then   you  do    univariate  analysis   of   each  feature   
+depending   on it's   category   
+
+
+..it  is    importand  to  see  the   big    picture  
+of   project   because   individial  parts  
+can   be   googled  
+
+
+
+ext, you’ll calculate the mean and variance of each feature. Does the feature hardly change at all? Is it constantly changing? Try to hypothesize about the behaviour you see. A feature that has a very low or very high variance may require additional investigation. 
+
+
+
+for   example   as  central   tendency   you  better  use the median  
+if the   data   is   skewed   instead  of mean . 
+
+
+to     have   better  stats knowledge  foundation   
+you   should   google   the  stats   behind  the  
+recommended   step. 
+example    :    ->     as  central   tendency   
+you  better  use the median  
+if the   data   is   skewed   instead  of mean . 
+because there   outliers  in  skewed   data 
+and  mean  is  sensetive  to  the outliers  and  
+median  not. 
+
+
+Identify Significant Correlations 
+
+
+
+maybe  the  framework  for   curiosity   
+are  insights   that    you  look  for   
+and found  ones . 
+is there   corelation   ?   are they  connected ? 
+what   is  cause ?  
+is  there    anomaly? 
+
+
+
+
+
+remember  that     it  is    important  when  you   try to: 
+find   missing   values   
+or  the    oulier   
+or   permorn   any   test  
+or  way to  find corelaation   
+is  not to  forget  about  your  data  type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////
+////////////////////////////////////////
+
+
+
+In each column find :
+    ☆Central Tendency 
+    ☆ spread 
+         Skeweness
+         Outlier
+         Distribution 
+         Missing value 
+
+
+Bivariate : 
+☆Correlation 
+☆causes 
+☆ trends
+☆patterns
+☆outlier for group
+☆confounding variable 
+☆ prediction
+☆ anomaly
+You find with: 
+☆scatterplot  for Correlation 
+☆linegraph trends and patterns 
+   Just try to find insights with any way possible. 
+
+Multi variable: 
+relationships 
+Patterns
+Predictions 
+Segments 
+Anomaly 
+when Bivariate cant give answer
+Dimensional reduction. 
+
+......
+1 ...need to have general idea before eda , but stay open to new findings  and redefining old ideas
+..
+2..purpose  of EDA: 
+☆ feature selection , remove noice and
+redundant features and data
+☆ data cleaning
+☆ feature engineering. 
+☆ transform. Like skewed data
+☆outliers
+☆ model selection 
+☆hypothesis  generation 
+
+
+HOW TO CONDUCT?  :
+My current strategy:
+Define data types of features.  
+You kinda set goals above(purpose of EDA) and then think how to achieve then with insights ou get from univariate  , Bivariate and multivariate analysis 
+
+
+
+You have questions (purposes of eda)
+Then you find insights  that help you . 
+In 3 stages.  
+Example  : data cleaning aka missing. 
+You try to analyze the best way to do with insights you got from 
+Univariate 
+Bivariate 
+And multivariate  analysis. 
+....
+Then you think what is the best way to do feature selection.  And do again 
+Uni, bi  ,multivariate  analysises you find Correlations ,outliers , causes and etc 
+
+
+.....
+To be better at STATISTICS  
+Investigate every  decision  in depth. 
+......
+
+
+
+
+
+
+
+
+
+
+
+
+

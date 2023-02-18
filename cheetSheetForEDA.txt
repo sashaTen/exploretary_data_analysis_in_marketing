@@ -1,5 +1,7 @@
-Data Cleaning: Clean the data to remove or correct missing values, errors, and inconsistencies. This can be done using techniques such as imputation, deletion, or interpolation. 
 
+check the  data  format .
+Data Cleaning: Clean the data to remove or correct missing values, errors, and inconsistencies. This can be done using techniques such as imputation, deletion, or interpolation. 
+EDA
 Feature Engineering: Create new features or modify existing features to improve the predictive power of the data. This can include feature scaling, normalization, and dimensionality reduction. 
 
 Feature Selection: Select the most important features for the modeling task. This can be done using techniques such as correlation analysis, principal component analysis, or feature importance measures. 
